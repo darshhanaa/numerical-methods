@@ -13,3 +13,9 @@ This repository contains implementations of numerical methods used in engineerin
 
 ## Purpose
 Built as part of academic learning and practice in numerical computation.
+
+## Methods Implemented
+
+- Bisection Method
+- Regula Falsi Method
+- Secant Method
