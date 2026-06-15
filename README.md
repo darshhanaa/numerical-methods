@@ -1,4 +1,4 @@
-# Numerical Methods in C
+## Numerical Methods (Python)
 
 This repository contains implementations of numerical methods used in engineering mathematics.
 
@@ -9,7 +9,7 @@ This repository contains implementations of numerical methods used in engineerin
 - Interpolation Techniques
 
 ## Language
-- C
+- python
 
 ## Purpose
 Built as part of academic learning and practice in numerical computation.
