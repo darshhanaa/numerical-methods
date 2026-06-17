@@ -1,30 +1,51 @@
 # Numerical Methods in Python
 
-This repository contains Python implementations of numerical methods commonly used in engineering mathematics.
+This repository contains implementations of basic numerical methods used in engineering mathematics.
 
+---
 
-## Root Finding Methods
+## 📌 Root Finding Methods
 
-- Bisection Method
-- Regula Falsi Method
-- Secant Method
-- Newton-Raphson Method
+| Method | Status |
+|------|--------|
+| Bisection Method | ✅ |
+| Regula Falsi Method | ✅ |
+| Secant Method | ✅ |
+| Newton-Raphson Method | ⏳ |
 
-## Repository Structure
+---
 
-```text
+## 🧠 Purpose
+
+This project is built for learning numerical methods through Python implementation.  
+It helps in understanding how mathematical problems are solved computationally.
+
+---
+
+## 📂 Structure
+
+```
 numerical-methods/
+│
 ├── root-finding/
-├── graphs/
-└── README.md
+│   ├── bisection.py
+│   ├── regula_falsi.py
+│   ├── secant_method.py
+│
+└── graphs/
 ```
 
-## Language
+---
+
+## 🚀 Future Plans
+
+- Newton-Raphson method
+- Graph visualizations
+- Interpolation methods
+- Numerical integration
+
+---
+
+## 🛠 Language Used
 
 - Python
-
-## Purpose
-
-## Purpose
-
-This repository is built for engineering mathematics practice, focusing on numerical methods implemented in Python with visualization.
