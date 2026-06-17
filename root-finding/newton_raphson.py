@@ -16,4 +16,4 @@ while True:
     x = x_new
     i += 1
 print("Root:", x_new)
-
+print("Iterations:", i)
