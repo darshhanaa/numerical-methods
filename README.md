@@ -2,11 +2,13 @@
 
 This repository contains Python implementations of numerical methods commonly used in engineering mathematics.
 
+
 ## Root Finding Methods
 
 - Bisection Method
 - Regula Falsi Method
 - Secant Method
+- Newton-Raphson Method
 
 ## Repository Structure
 
