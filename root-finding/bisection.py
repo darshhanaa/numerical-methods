@@ -1,28 +1,23 @@
-
-
 def f(x):
     return x**3 - x - 2
 
-a = float(input("Enter a: "))
-b = float(input("Enter b: "))
+a = float(input("Enter lower bound (a): "))
+b = float(input("Enter upper bound (b): "))
 
 if f(a) * f(b) >= 0:
-    print("Invalid interval")
+    print("Invalid interval. f(a) and f(b) must have opposite signs.")
     exit()
 
-i = 0
-
-while (b - a) >= 0.0001:
+for i in range(100):
     c = (a + b) / 2
 
-    if f(c) == 0:
+    if abs(f(c)) < 0.0001:
         break
-    elif f(a) * f(c) < 0:
+
+    if f(a) * f(c) < 0:
         b = c
     else:
         a = c
-
-    i += 1
 
 print("Root:", c)
 print("Iterations:", i)
