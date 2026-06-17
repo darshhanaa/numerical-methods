@@ -25,4 +25,6 @@ numerical-methods/
 
 ## Purpose
 
-Built as part of academic learning and practice in numerical computation and engineering mathematics.
+## Purpose
+
+This repository is built for engineering mathematics practice, focusing on numerical methods implemented in Python with visualization.
